@@ -15,3 +15,7 @@ format:
 ## Run Tests
 test:
 	go test -v ./...
+
+## Run Benchmarks
+bench:
+	go test -bench=. -benchmem ./...
